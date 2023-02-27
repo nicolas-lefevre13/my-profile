@@ -1,0 +1,134 @@
+body{
+background-color: #3B3856;
+color: #E384FF ;
+font-family: Courier;
+
+}
+div {
+	width: 700px;
+	margin: auto; 
+}
+
+h1 {
+	color: #865DFF ;
+	font-family: Times New Roman;
+	font-weight: bold;
+	letter-spacing: 5px;
+	font-size: 50px;
+	text-transform: uppercase;
+}
+h2 {
+	color: #FFAE42;
+	font-family: Times New Roman;
+	font-weight: semi-bold;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+
+a{
+	color: #E384FF;
+	text-decoration: none;
+}
+a:hover{
+	color: #191825 ;
+	text-decoration: none;
+	font-weight: bold;
+}
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+
+}
+
+p{
+	color: #E384FF;
+}
+.text-green {
+	color: #D4DCFF;
+}
+#honeydew {
+	color: #FFC285;
+}
+#cerulean {
+	color: #DDF8E8;
+}
+
+#Nicolas {
+	border-radius: 5%;
+	border: 10px solid red;
+	border-color: 50px #D9BBF9;
+	box-shadow: 0px 10px 10px #D9BBF9;
+	border-color: #D9BBF9;
+}
+.text-match {
+	color: #FF477B;
+}
+
+#food-title {
+	color: #8FA78B;
+}
+
+#movie-title {
+	color: #CAB1BD;
+}
+.card-black {
+	background-color: #191825;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+
+}
+.list-inline li{
+	display: inline;
+	padding: 10px;
+}
+.list-inline i{
+	font-size: 30px;
+
+}
+.list-inline i:hover{
+	color: yellow ;
+}
+.btn-purple {
+	border-radius: 50%;
+	background-color: #E384FF ;
+	color: white;
+	padding: 15px 100px;
+
+}
+.btn-purple:hover {
+	background-color: #865DFF;
+	color: white ;
+	text-decoration: none;
+	font-weight: bold;
+
+}
+#introduction p {
+	margin-bottom: 50px;
+
+}
